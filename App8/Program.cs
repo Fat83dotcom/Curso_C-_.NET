@@ -46,3 +46,12 @@ Console.WriteLine(text7.ToLower());
 Console.WriteLine(text7.ToUpper());
 // Retorna maiusculas.
 
+Console.WriteLine(text7.Insert(5, " aqui foi um texto "));
+// Insere uma string nã posição especificada.
+
+Console.WriteLine(text7.Remove(5, 5));
+// Remove as strings iniciando no index especificado no primeiro parametro
+// e remove os proximos carateres especificados no segundo parametro.
+
+Console.WriteLine(text7.Length);
+// Retorna a quantidade de caracteres da string.
