@@ -55,3 +55,23 @@ Console.WriteLine(text7.Remove(5, 5));
 
 Console.WriteLine(text7.Length);
 // Retorna a quantidade de caracteres da string.
+
+for (int i = text7.Length - 1 ; i >= 0; i--)
+{
+    Console.WriteLine(text7[i]);
+}
+
+string text8 = "Mais um teste muito foda";
+Console.WriteLine(text8.Replace("o", "0"));
+// Substitui o valor do primeiro argumento pelo valor do segundo.
+
+string[] division = text8.Split(" ");
+
+foreach (string s in division)
+    Console.WriteLine(s);
+
+string text9 = "C# é uma liguagem de programação phoda.";
+string result = text9.Substring(0, 8);
+// Fatia uma string a partir do indice do primeiro argumento
+// até o segundo, excluindo o segundo
+Console.WriteLine(result);
