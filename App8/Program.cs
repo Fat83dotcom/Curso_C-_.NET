@@ -1,4 +1,5 @@
 ﻿using System.Net.Http.Headers;
+using System.Text;
 
 var id = Guid.NewGuid();
 
@@ -70,8 +71,24 @@ string[] division = text8.Split(" ");
 foreach (string s in division)
     Console.WriteLine(s);
 
-string text9 = "C# é uma liguagem de programação phoda.";
+string text9 = "C# é uma liguagem de programação phoda.   ";
 string result = text9.Substring(0, 8);
+//string result = text9[..8]; faz a mesma coisa usando range operators
 // Fatia uma string a partir do indice do primeiro argumento
 // até o segundo, excluindo o segundo
 Console.WriteLine(result);
+
+Console.WriteLine(text9.Trim());
+// Elimina espaços do inicio e fim.
+
+StringBuilder text10 = new();
+
+string[] concatTexts = [
+    text, text2, text3, text4, text5, text6, text7, text8, text9
+];
+
+foreach (string s in concatTexts)
+    text10.Append(s);
+
+Console.WriteLine(text10.ToString());
+// Concatena textos grandes de forma otimizada.
