@@ -1,0 +1,14 @@
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\cod_aula1\cod_aula1\bin\Debug\net9.0\cod_aula1.exe
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\cod_aula1\cod_aula1\bin\Debug\net9.0\cod_aula1.deps.json
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\cod_aula1\cod_aula1\bin\Debug\net9.0\cod_aula1.runtimeconfig.json
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\cod_aula1\cod_aula1\bin\Debug\net9.0\cod_aula1.dll
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\cod_aula1\cod_aula1\bin\Debug\net9.0\cod_aula1.pdb
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\cod_aula1\cod_aula1\obj\Debug\net9.0\cod_aula1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\cod_aula1\cod_aula1\obj\Debug\net9.0\cod_aula1.AssemblyInfoInputs.cache
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\cod_aula1\cod_aula1\obj\Debug\net9.0\cod_aula1.AssemblyInfo.cs
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\cod_aula1\cod_aula1\obj\Debug\net9.0\cod_aula1.csproj.CoreCompileInputs.cache
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\cod_aula1\cod_aula1\obj\Debug\net9.0\cod_aula1.dll
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\cod_aula1\cod_aula1\obj\Debug\net9.0\refint\cod_aula1.dll
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\cod_aula1\cod_aula1\obj\Debug\net9.0\cod_aula1.pdb
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\cod_aula1\cod_aula1\obj\Debug\net9.0\cod_aula1.genruntimeconfig.cache
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\cod_aula1\cod_aula1\obj\Debug\net9.0\ref\cod_aula1.dll

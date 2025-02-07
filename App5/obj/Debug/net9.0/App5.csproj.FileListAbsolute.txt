@@ -1,0 +1,14 @@
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\App5\bin\Debug\net9.0\App5.exe
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\App5\bin\Debug\net9.0\App5.deps.json
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\App5\bin\Debug\net9.0\App5.runtimeconfig.json
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\App5\bin\Debug\net9.0\App5.dll
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\App5\bin\Debug\net9.0\App5.pdb
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\App5\obj\Debug\net9.0\App5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\App5\obj\Debug\net9.0\App5.AssemblyInfoInputs.cache
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\App5\obj\Debug\net9.0\App5.AssemblyInfo.cs
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\App5\obj\Debug\net9.0\App5.csproj.CoreCompileInputs.cache
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\App5\obj\Debug\net9.0\App5.dll
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\App5\obj\Debug\net9.0\refint\App5.dll
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\App5\obj\Debug\net9.0\App5.pdb
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\App5\obj\Debug\net9.0\App5.genruntimeconfig.cache
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\App5\obj\Debug\net9.0\ref\App5.dll

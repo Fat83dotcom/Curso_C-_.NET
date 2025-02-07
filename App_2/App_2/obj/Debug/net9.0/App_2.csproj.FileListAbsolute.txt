@@ -1,0 +1,14 @@
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\App_2\App_2\bin\Debug\net9.0\App_2.exe
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\App_2\App_2\bin\Debug\net9.0\App_2.deps.json
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\App_2\App_2\bin\Debug\net9.0\App_2.runtimeconfig.json
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\App_2\App_2\bin\Debug\net9.0\App_2.dll
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\App_2\App_2\bin\Debug\net9.0\App_2.pdb
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\App_2\App_2\obj\Debug\net9.0\App_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\App_2\App_2\obj\Debug\net9.0\App_2.AssemblyInfoInputs.cache
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\App_2\App_2\obj\Debug\net9.0\App_2.AssemblyInfo.cs
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\App_2\App_2\obj\Debug\net9.0\App_2.csproj.CoreCompileInputs.cache
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\App_2\App_2\obj\Debug\net9.0\App_2.dll
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\App_2\App_2\obj\Debug\net9.0\refint\App_2.dll
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\App_2\App_2\obj\Debug\net9.0\App_2.pdb
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\App_2\App_2\obj\Debug\net9.0\App_2.genruntimeconfig.cache
+C:\Users\ferna\OneDrive\Área de Trabalho\Curso_C#_.NET\projeto_C#\App_2\App_2\obj\Debug\net9.0\ref\App_2.dll
