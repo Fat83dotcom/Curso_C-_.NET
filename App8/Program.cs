@@ -1,7 +1,9 @@
-﻿var id = Guid.NewGuid();
+﻿using System.Net.Http.Headers;
+
+var id = Guid.NewGuid();
 
 var text = string.Format("O Guid gerado foi {0}", id);
-var text2 = $"O Guid gerado foi {id}."; // Tipo mais usado de interpolaçao
+var text2 = $"O Guid gerado foi {id}."; // Tipo mais usado de interpolaçao.
 
 Console.WriteLine(text);
 Console.WriteLine(text2);
@@ -23,3 +25,24 @@ Console.WriteLine(text5.StartsWith("aqui é"));
 
 Console.WriteLine(text5.EndsWith("xto."));
 // Verifica se o aquivo termina com a string passada. StringComparison pode ser usado.
+
+string text6 = "Será que é igual?";
+Console.WriteLine(text6.Equals("Será que é igual?"));
+// Retorna True.
+
+Console.WriteLine(text6.Equals("Acho que não."));
+// Retorna False.
+
+string text7 = "Este texto é um teste.";
+Console.WriteLine(text7.IndexOf('x'));
+// Retorna a posição da letra passada no inde of.
+
+Console.WriteLine(text7.LastIndexOf('t'));
+// Retorna a posição a ultima ocorrencia da letra.
+
+Console.WriteLine(text7.ToLower());
+// Retorna todas minusculas.
+
+Console.WriteLine(text7.ToUpper());
+// Retorna maiusculas.
+
