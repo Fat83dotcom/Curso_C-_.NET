@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ferna\\OneDrive\\\u00C1rea de Trabalho\\Curso_C#_.NET\\projeto_C#\\EditorHTML\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2AA9C7C2-5A98-4E7A-9C61-53E06C12C63C}|EditorHTML\\EditorHTML.csproj|c:\\users\\ferna\\onedrive\\\u00E1rea de trabalho\\curso_c#_.net\\projeto_c#\\editorhtml\\editorhtml\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AA9C7C2-5A98-4E7A-9C61-53E06C12C63C}|EditorHTML\\EditorHTML.csproj|solutionrelative:editorhtml\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2AA9C7C2-5A98-4E7A-9C61-53E06C12C63C}|EditorHTML\\EditorHTML.csproj|c:\\users\\ferna\\onedrive\\\u00E1rea de trabalho\\curso_c#_.net\\projeto_c#\\editorhtml\\editorhtml\\viewer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2AA9C7C2-5A98-4E7A-9C61-53E06C12C63C}|EditorHTML\\EditorHTML.csproj|solutionrelative:editorhtml\\viewer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2AA9C7C2-5A98-4E7A-9C61-53E06C12C63C}|EditorHTML\\EditorHTML.csproj|c:\\users\\ferna\\onedrive\\\u00E1rea de trabalho\\curso_c#_.net\\projeto_c#\\editorhtml\\editorhtml\\editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2AA9C7C2-5A98-4E7A-9C61-53E06C12C63C}|EditorHTML\\EditorHTML.csproj|solutionrelative:editorhtml\\editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AA9C7C2-5A98-4E7A-9C61-53E06C12C63C}|EditorHTML\\EditorHTML.csproj|c:\\users\\ferna\\onedrive\\\u00E1rea de trabalho\\curso_c#_.net\\projeto_c#\\editorhtml\\editorhtml\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AA9C7C2-5A98-4E7A-9C61-53E06C12C63C}|EditorHTML\\EditorHTML.csproj|solutionrelative:editorhtml\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2AA9C7C2-5A98-4E7A-9C61-53E06C12C63C}|EditorHTML\\EditorHTML.csproj|c:\\users\\ferna\\onedrive\\\u00E1rea de trabalho\\curso_c#_.net\\projeto_c#\\editorhtml\\editorhtml\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,20 +34,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Viewer.cs",
               "DocumentMoniker": "C:\\Users\\ferna\\OneDrive\\\u00C1rea de Trabalho\\Curso_C#_.NET\\projeto_C#\\EditorHTML\\EditorHTML\\Viewer.cs",
               "RelativeDocumentMoniker": "EditorHTML\\Viewer.cs",
-              "ToolTip": "C:\\Users\\ferna\\OneDrive\\\u00C1rea de Trabalho\\Curso_C#_.NET\\projeto_C#\\EditorHTML\\EditorHTML\\Viewer.cs*",
-              "RelativeToolTip": "EditorHTML\\Viewer.cs*",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAMwC4AAAAkAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ferna\\OneDrive\\\u00C1rea de Trabalho\\Curso_C#_.NET\\projeto_C#\\EditorHTML\\EditorHTML\\Viewer.cs",
+              "RelativeToolTip": "EditorHTML\\Viewer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAjwBIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-09T20:02:44.658Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Editor.cs",
               "DocumentMoniker": "C:\\Users\\ferna\\OneDrive\\\u00C1rea de Trabalho\\Curso_C#_.NET\\projeto_C#\\EditorHTML\\EditorHTML\\Editor.cs",
               "RelativeDocumentMoniker": "EditorHTML\\Editor.cs",
@@ -55,20 +55,20 @@
               "RelativeToolTip": "EditorHTML\\Editor.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAADwvzoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T20:51:41.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T20:51:41.941Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\ferna\\OneDrive\\\u00C1rea de Trabalho\\Curso_C#_.NET\\projeto_C#\\EditorHTML\\EditorHTML\\Menu.cs",
               "RelativeDocumentMoniker": "EditorHTML\\Menu.cs",
               "ToolTip": "C:\\Users\\ferna\\OneDrive\\\u00C1rea de Trabalho\\Curso_C#_.NET\\projeto_C#\\EditorHTML\\EditorHTML\\Menu.cs",
               "RelativeToolTip": "EditorHTML\\Menu.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAswA4AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwEcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T18:29:44.441Z"
+              "WhenOpened": "2025-02-08T18:29:44.441Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
