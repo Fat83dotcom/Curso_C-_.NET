@@ -57,7 +57,6 @@ namespace Array
             {
                 Console.WriteLine(i);
             }
-
         }
     }
 
