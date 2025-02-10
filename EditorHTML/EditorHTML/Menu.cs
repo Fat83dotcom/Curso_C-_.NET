@@ -12,7 +12,8 @@ namespace EditorHTML
             WriteOptions();
 
             var str = Console.ReadLine();
-            short option = short.Parse(str);
+            
+            short option = short.Parse(s: str);
             HandleMenuOptions(option);
 
         }
@@ -64,11 +65,11 @@ namespace EditorHTML
             Console.SetCursorPosition(3, 5);
             Console.Write("1 - Novo Arquivo");
 
-            Console.SetCursorPosition(3, 6);
-            Console.Write("2 - Abrir arquivo");
+            //Console.SetCursorPosition(3, 6);
+            //Console.Write("2 - Abrir arquivo");
 
             Console.SetCursorPosition(3, 7);
-            Console.Write("3 - Sair");
+            Console.Write("2 - Sair");
             
             Console.SetCursorPosition(3, 8);
             Console.Write("Opção: ");
@@ -82,9 +83,7 @@ namespace EditorHTML
             {
                 case 1: Editor.Show();
                     break;
-                case 2: Console.WriteLine("View");
-                    break;
-                case 3:
+                case 2:
                     {
                         Console.Clear();
                         Environment.Exit(0);
