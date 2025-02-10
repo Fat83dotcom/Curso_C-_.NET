@@ -124,3 +124,32 @@ Console.WriteLine("");
 // timespan
 TimeSpan nano = new(1);
 Console.WriteLine(nano);
+
+TimeSpan completeHours = new(4, 89, 79); 
+Console.WriteLine(completeHours);
+
+TimeSpan completeDaysHours = new(4, 5, 59, 34); 
+Console.WriteLine(completeDaysHours);
+
+TimeSpan completeDaysHoursMili = new(9, 8, 49, 56, 410); 
+Console.WriteLine(completeDaysHoursMili);
+
+// operações com timespan
+Console.WriteLine(completeHours - completeDaysHours); // subtrai diretamente uma hora com outra
+Console.WriteLine(completeDaysHours.Days); // obtem os dias
+Console.WriteLine(completeHours.Days); // retorna zero se a quantidade de dias nao for inteira
+Console.WriteLine(completeDaysHours.Add(new TimeSpan(12, 0, 0))); // adiciona usando o operador Add
+Console.WriteLine("");
+
+// metodos uteis
+Console.WriteLine(DateTime.DaysInMonth(2025, 2)); // Mostra quantos dias tem o mes
+
+// verifica se hoje é fim de semana
+static bool IsWeekEnd(DayOfWeek today)
+{
+    return today == DayOfWeek.Saturday || today == DayOfWeek.Sunday;
+}
+Console.WriteLine(IsWeekEnd(DateTime.Now.DayOfWeek));
+
+// se é horario de verão
+Console.WriteLine(DateTime.Now.IsDaylightSavingTime());
