@@ -43,7 +43,11 @@ namespace POO
             p6();
 
             Room room = new(4);
-            room.RoomSoldOutEvent += OnRoomSoldOut;
+            room.RoomSoldOutEvent += OnRoomSoldOut; // Delegação de roomsoldoutevent para onroomsoldout
+            room.RoomSoldOutEvent += OnRoo;
+            room.ReserveSeat();
+            room.ReserveSeat();
+            room.ReserveSeat();
             room.ReserveSeat();
             room.ReserveSeat();
             room.ReserveSeat();
@@ -53,7 +57,13 @@ namespace POO
 
         private static void OnRoomSoldOut(object? sender, EventArgs e)
         {
+            // Função fora de Room que tratara dos eventos das salas cheias
             Console.WriteLine("Não há assentos disponiveis");
+        }
+        private static void OnRoo(object? sender, EventArgs e)
+        {
+            // Função fora de Room que tratara dos eventos das salas cheias
+            Console.WriteLine("OnRoo");
         }
 
         public class Payment(DateTime paymentDueDate) : IDisposable
