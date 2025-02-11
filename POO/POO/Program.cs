@@ -9,7 +9,16 @@ namespace POO
         {
             Console.WriteLine("Assinou");
         }
-
+        private static void OnRoomSoldOut(object? sender, EventArgs e)
+        {
+            // Função fora de Room que tratara dos eventos das salas cheias
+            Console.WriteLine("Não há assentos disponiveis");
+        }
+        private static void OnRoo(object? sender, EventArgs e)
+        {
+            // Função fora de Room que tratara dos eventos das salas cheias
+            Console.WriteLine("OnRoo");
+        }
         public static void Main(string[] args)
         {
             DateTime dateDueDate = new(2025, 2, 11, 23, 59, 59);
@@ -53,17 +62,6 @@ namespace POO
             room.ReserveSeat();
             room.ReserveSeat();
             room.ReserveSeat();
-        }
-
-        private static void OnRoomSoldOut(object? sender, EventArgs e)
-        {
-            // Função fora de Room que tratara dos eventos das salas cheias
-            Console.WriteLine("Não há assentos disponiveis");
-        }
-        private static void OnRoo(object? sender, EventArgs e)
-        {
-            // Função fora de Room que tratara dos eventos das salas cheias
-            Console.WriteLine("OnRoo");
         }
 
         public class Payment(DateTime paymentDueDate) : IDisposable
