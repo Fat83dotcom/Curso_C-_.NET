@@ -1,7 +1,10 @@
-﻿namespace Exceptionss
+﻿using System;
+
+namespace Exceptionss
 {
     public class Program
     {
+
         static void Main()
         {
             int[] arr = [1, 2, 3];
@@ -32,12 +35,12 @@
             }
         }
 
-        private static void Saver(string filename)
+        private static void Saver(string fileName)
         {
-            if (string.IsNullOrEmpty(filename))
+            if (string.IsNullOrEmpty(fileName))
             {
                 // lança um erro quando o arquivo é vazio ou nulo
-                throw new ArgumentNullException("O arquivo não pode ser vazio ou nulo.");
+                throw new ArgumentNullException(nameof(fileName), "O filename não pode ser vazio ou nulo.");
             }
         }
     }
