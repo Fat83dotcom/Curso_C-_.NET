@@ -1,6 +1,6 @@
 ﻿namespace POOExercicies.ContentContext
 {
-    public class CarrerItem
+    public class CarrerItem : Base
     {
         public CarrerItem(int order, string? title, string? description, Course course)
         {
@@ -21,12 +21,11 @@
             {
                 if (value != null)
                 {
-                    Console.WriteLine("passou aqui");
                     field = value;
                 }
                 else
                 {
-                    throw new ArgumentNullException(nameof(value), "O curso não pode ser nulo.");
+                    AddNotification(new("Course", "Curso não pode ser nulo"));
                 }
             }
         }
