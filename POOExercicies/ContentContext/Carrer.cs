@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace POOExercicies.ContentContext
+﻿namespace POOExercicies.ContentContext
 {
     public class Carrer(string? title, string? url) : Content(title, url)
     {
