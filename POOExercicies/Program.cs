@@ -42,9 +42,13 @@
             };
 
             // Cria os items da carreira
-            CarrerItem crI3 = new(1, "Carreira POO", "Inicie aqui", c3);
+            CarrerItem crI3 = new(1, "Carreira POO", "Inicie aqui", null);
             CarrerItem crI1 = new(3, "Carreira .Net", ".Net", c1);
             CarrerItem crI2 = new(2, "Carreira C Sharp", "C Sharp", c2);
+
+            Console.WriteLine(crI1.IsInvalid);
+            Console.WriteLine(crI2.IsInvalid);
+            Console.WriteLine(crI3.IsInvalid);
 
             // cria uma carreira
             Carrer carr = new("Especialista .Net", "nova-carreira-dotnet");
@@ -58,6 +62,13 @@
                 Console.WriteLine(
                     $"{item.Order} - {item.Title} - {item.Description} - {item?.Course?.Title} - {item?.Course?.Level}"
                 );
+                if (item.IsInvalid)
+                {
+                    foreach (var notification in item.Notifications)
+                    {
+                        Console.WriteLine($"A classe {notification.Property} enviou uma notificação: {notification.Message}");
+                    }
+                }
             }
         }
     }
