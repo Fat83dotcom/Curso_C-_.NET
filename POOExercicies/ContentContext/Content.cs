@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace POOExercicies.ContentContext
+{
+    public abstract class Content(string? title, string? url)
+    {
+        public Guid Id { get; set; } = Guid.NewGuid();
+        public string? Title { get; set; } = title;
+        public string? Url { get; set; } = url;
+
+    }
+}
