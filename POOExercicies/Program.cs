@@ -59,7 +59,6 @@
                     $"{item.Order} - {item.Title} - {item.Description} - {item?.Course?.Title} - {item?.Course?.Level}"
                 );
             }
-
         }
     }
 }
