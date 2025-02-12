@@ -3,16 +3,18 @@ namespace POOExercicies.NotificationContext
 {
     public abstract class Notifiable
     {
-        public List<Notification>? Notifications { get; set; }
+        public List<Notification>? Notifications { get; set; } = [];
 
-        public void Add(Notification notification)
+        public void AddNotification(Notification notification)
         {
             Notifications?.Add(notification);
         }
 
-        public void AddRange(IEnumerable<Notification> notifications)
+        public void AddRangeNotifications(IEnumerable<Notification> notifications)
         {
             Notifications?.AddRange(notifications);
         }
+
+        public bool IsInvalid => (bool)(Notifications?.Count != 0); // True se houver notificação
     }
 }
