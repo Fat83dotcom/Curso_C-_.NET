@@ -62,6 +62,25 @@ namespace POO
             room.ReserveSeat();
             room.ReserveSeat();
             room.ReserveSeat();
+
+            // Inicializa o tipo generic
+            //DataContext<Payment> dataContextPayment = new(); // Não aceita payment
+            //dataContextPayment.Save(payment);
+
+            DataContext<Person> dataContexPerson = new();
+            dataContexPerson.Save(p2);
+
+            IList<Person> personsList = []; // Inicializa uma lista de person generica
+            for (int i = 0; i < 20; i++)
+            {
+                personsList.Add(new() { Id = i, }); // adiciona os ids 
+            }
+            personsList.RemoveAt(6); // Remove o item de index 6
+            IEnumerable<Person> personEnum = personsList.AsEnumerable(); // converte a lista para enumerable
+            foreach (Person person in personEnum)
+            {
+                Console.WriteLine(person.Id); // le os ids
+            }
         }
 
         public class Payment(DateTime paymentDueDate) : IDisposable
@@ -162,5 +181,15 @@ namespace POO
                 RoomSoldOutEvent?.Invoke(this, e);
             }
         }
+
+        public class DataContext<T>// tipos genericos
+        where T: Person // No caso de mais tipos, pode ser necessario especificar com where, limitando o uso
+        { 
+            
+            public void Save(T entity)
+            {
+
+            }
+        }       
     }
 }
