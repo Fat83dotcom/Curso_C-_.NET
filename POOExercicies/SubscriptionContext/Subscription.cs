@@ -7,6 +7,5 @@ namespace POOExercicies.SubscriptionContext
         public DateTime? EndDate { get; set; }
 
         public bool IsActive => EndDate >= DateTime.Now;
-
     }
 }
