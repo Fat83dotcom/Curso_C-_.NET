@@ -1,4 +1,6 @@
-﻿namespace POOExercicies.ContentContext
+﻿using POOExercicies.SharedContext;
+
+namespace POOExercicies.ContentContext
 {
     public class CarrerItem : Base
     {
