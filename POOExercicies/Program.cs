@@ -1,4 +1,6 @@
-﻿namespace POOExercicies.ContentContext
+﻿using POOExercicies.SubscriptionContext;
+
+namespace POOExercicies.ContentContext
 {
     public class Program
     {
@@ -42,7 +44,7 @@
             };
 
             // Cria os items da carreira
-            CarrerItem crI3 = new(1, "Carreira POO", "Inicie aqui", null);
+            CarrerItem crI3 = new(1, "Carreira POO", "Inicie aqui", c3);
             CarrerItem crI1 = new(3, "Carreira .Net", ".Net", c1);
             CarrerItem crI2 = new(2, "Carreira C Sharp", "C Sharp", c2);
 
@@ -57,7 +59,7 @@
             carr.Items.Add(crI3);
 
             Console.WriteLine(carr.Title);
-            foreach (var item in carr.Items.OrderBy(x=>x.Order))
+            foreach (var item in carr.Items.OrderBy(x => x.Order))
             {
                 Console.WriteLine(
                     $"{item.Order} - {item.Title} - {item.Description} - {item?.Course?.Title} - {item?.Course?.Level}"
@@ -70,6 +72,18 @@
                     }
                 }
             }
+            User us1 = new()
+            {
+                UserName = "Test",
+                Password = "Test",
+            };
+            Student st1 = new(us1, "Teste_1", "Teste@test.mail.com");
+            Plan pl1 = new("Plano Basico", 1899.99m);
+            PayPalSubscription payPalSub = new()
+            {
+                Plan = pl1,
+
+            };
         }
     }
 }
