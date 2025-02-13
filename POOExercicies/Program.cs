@@ -78,12 +78,26 @@ namespace POOExercicies.ContentContext
                 Password = "Test",
             };
             Student st1 = new(us1, "Teste_1", "Teste@test.mail.com");
+            Student st2 = new(us1, "Teste_2", "tedste@gmail.com");
+
             Plan pl1 = new("Plano Basico", 1899.99m);
             PayPalSubscription payPalSub = new()
             {
                 Plan = pl1,
-
+                EndDate = DateTime.Now.AddYears(1),
             };
+
+            st1.CreateSubscription(payPalSub);
+            st1.CreateSubscription(payPalSub);
+
+            foreach (var item in st1.Subscriptions)
+            {
+                Console.WriteLine($"{item.Plan.Title} - {item.Plan.Price} - {item.EndDate} - {item.IsActive}");
+                foreach (var notificastions in st1.Notifications)
+                {
+                    Console.WriteLine(notificastions.Message);
+                }
+            }
         }
     }
 }
